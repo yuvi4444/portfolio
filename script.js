@@ -32,9 +32,6 @@ const displayProfile = (profile) => {
             <h2><a href=${profile.blog}><strong>${profile.name}</strong></a></h2>
             <p>${profile.bio}</p>
             <p>
-                <strong>Location:</strong> ${profile.location}
-            </p>
-            <p>
                 <strong>@${profile.login} </strong>
                 Repos: ${profile.public_repos}
                 Gists: ${profile.public_gists}
